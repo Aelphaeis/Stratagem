@@ -4,7 +4,6 @@ import java.util.Random;
 
 import interfaces.ICombatSimulator;
 import interfaces.ICombatable;
-import interfaces.IStatable;
 
 /** 
  * This is a bare bones default combat simulator.
