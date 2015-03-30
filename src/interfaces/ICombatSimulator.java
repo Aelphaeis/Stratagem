@@ -11,5 +11,6 @@ public interface ICombatSimulator {
 	 * @param combatant The attacker
 	 * @param target The target being attacked
 	 */
-	public void Emulate(IStatable combatant, IStatable target);
+	public void EmulateFight(ICombatable combatant, ICombatable target);
+	public void EmulateAttack(ICombatable combatant, ICombatable target);
 }
